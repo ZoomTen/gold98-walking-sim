@@ -158,7 +158,7 @@ TeleportGuyScript:
 	playsound SFX_WARP_TO
 	special FadeOutPalettes
 	waitsfx
-	warp NEW_BARK_TOWN, 13, 6
+	warp SHIZUOKA, 13, 6
 	end
 
 .No:
@@ -306,8 +306,8 @@ IndigoPlateauPokecenter1F_MapEvents:
 	def_warp_events
 	warp_event  0, 13, POKECENTER_2F, 1
 	warp_event 14,  3, WILLS_ROOM, 1
-	warp_event  5, 13, NEW_BARK_TOWN, 2
-	warp_event  6, 13, NEW_BARK_TOWN, 2
+	warp_event  5, 13, SHIZUOKA, 2
+	warp_event  6, 13, SHIZUOKA, 2
 
 	def_coord_events
 	coord_event 16,  4, SCENE_DEFAULT, PlateauRivalBattle1

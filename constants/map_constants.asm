@@ -43,9 +43,12 @@ ENDM
 	endgroup
 
 	newgroup NEW_BARK                                             ; 2
-	map_const NEW_BARK_TOWN,                               10,  9 ;  1
+	map_const SHIZUOKA,                               10,  9 ;  1
 	map_const PLAYERS_HOUSE_1F,                             5,  4 ;  2
 	map_const PLAYERS_HOUSE_2F,                             4,  3 ;  3
+	
+	map_const ROAD_129, 30, 9
+	map_const NAGOYA, 20, 18
 	endgroup
 
 	newgroup INDIGO                                               ; 3

@@ -27,7 +27,7 @@ MomPhoneLandmark:
 
 MomPhoneInTown:
 	readvar VAR_MAPGROUP
-	ifequal GROUP_NEW_BARK_TOWN, .newbark
+	ifequal GROUP_SHIZUOKA, .newbark
 	ifequal GROUP_NONE, .cherrygrove
 	ifequal GROUP_NONE, .violet
 	ifequal GROUP_NONE, .azalea

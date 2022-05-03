@@ -1,24 +1,27 @@
 SECTION "Map Scripts 1", ROMX
-INCLUDE "maps/Pokecenter2F.asm"
-INCLUDE "maps/TradeCenter.asm"
-INCLUDE "maps/Colosseum.asm"
-INCLUDE "maps/TimeCapsule.asm"
+INCLUDE "maps/vanilla/Pokecenter2F.asm"
+INCLUDE "maps/vanilla/TradeCenter.asm"
+INCLUDE "maps/vanilla/Colosseum.asm"
+INCLUDE "maps/vanilla/TimeCapsule.asm"
 
 SECTION "Map Scripts 2", ROMX
-INCLUDE "maps/NewBarkTown.asm"
-INCLUDE "maps/PlayersHouse1F.asm"
-INCLUDE "maps/PlayersHouse2F.asm"
+INCLUDE "maps/vanilla/PlayersHouse1F.asm"
+INCLUDE "maps/vanilla/PlayersHouse2F.asm"
 
 SECTION "Map Scripts 3", ROMX
-INCLUDE "maps/IndigoPlateauPokecenter1F.asm"
-INCLUDE "maps/WillsRoom.asm"
-INCLUDE "maps/KogasRoom.asm"
-INCLUDE "maps/BrunosRoom.asm"
-INCLUDE "maps/KarensRoom.asm"
-INCLUDE "maps/LancesRoom.asm"
-INCLUDE "maps/HallOfFame.asm"
+INCLUDE "maps/vanilla/IndigoPlateauPokecenter1F.asm"
+INCLUDE "maps/vanilla/WillsRoom.asm"
+INCLUDE "maps/vanilla/KogasRoom.asm"
+INCLUDE "maps/vanilla/BrunosRoom.asm"
+INCLUDE "maps/vanilla/KarensRoom.asm"
+INCLUDE "maps/vanilla/LancesRoom.asm"
+INCLUDE "maps/vanilla/HallOfFame.asm"
 
 SECTION "Map Scripts 4", ROMX
+INCLUDE "maps/sizuoka.asm"
+INCLUDE "maps/road129.asm"
+INCLUDE "maps/nagoya.asm"
+
 SECTION "Map Scripts 5", ROMX
 SECTION "Map Scripts 6", ROMX
 SECTION "Map Scripts 7", ROMX

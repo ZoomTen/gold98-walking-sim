@@ -1,46 +1,47 @@
 SECTION "Map Blocks 1", ROMX
 
 Pokecenter2F_Blocks:
-	INCBIN "maps/Pokecenter2F.blk"
+	INCBIN "maps/vanilla/Pokecenter2F.blk"
 
 TradeCenter_Blocks:
 TimeCapsule_Blocks:
-	INCBIN "maps/TradeCenter.blk"
+	INCBIN "maps/vanilla/TradeCenter.blk"
 
 Colosseum_Blocks:
-	INCBIN "maps/Colosseum.blk"
+	INCBIN "maps/vanilla/Colosseum.blk"
 
-NewBarkTown_Blocks:
-	INCBIN "maps/NewBarkTown.blk"
+Shizuoka_Blocks: INCBIN "maps/sizuoka.blk"
+Road129_Blocks:  INCBIN "maps/road129.blk"
+Nagoya_Blocks:   INCBIN "maps/nagoya.blk"
 
 SECTION "Map Blocks 2", ROMX
 
 PlayersHouse2F_Blocks:
-	INCBIN "maps/PlayersHouse2F.blk"
+	INCBIN "maps/vanilla/PlayersHouse2F.blk"
 
 PlayersHouse1F_Blocks:
-	INCBIN "maps/PlayersHouse1F.blk"
+	INCBIN "maps/vanilla/PlayersHouse1F.blk"
 
 SECTION "Map Blocks 3", ROMX
 
 IndigoPlateauPokecenter1F_Blocks:
-	INCBIN "maps/IndigoPlateauPokecenter1F.blk"
+	INCBIN "maps/vanilla/IndigoPlateauPokecenter1F.blk"
 
 WillsRoom_Blocks:
-	INCBIN "maps/WillsRoom.blk"
+	INCBIN "maps/vanilla/WillsRoom.blk"
 
 KogasRoom_Blocks:
-	INCBIN "maps/KogasRoom.blk"
+	INCBIN "maps/vanilla/KogasRoom.blk"
 
 BrunosRoom_Blocks:
-	INCBIN "maps/BrunosRoom.blk"
+	INCBIN "maps/vanilla/BrunosRoom.blk"
 
 KarensRoom_Blocks:
-	INCBIN "maps/KarensRoom.blk"
+	INCBIN "maps/vanilla/KarensRoom.blk"
 
 LancesRoom_Blocks:
-	INCBIN "maps/LancesRoom.blk"
+	INCBIN "maps/vanilla/LancesRoom.blk"
 
 HallOfFame_Blocks:
-	INCBIN "maps/HallOfFame.blk"
+	INCBIN "maps/vanilla/HallOfFame.blk"
 

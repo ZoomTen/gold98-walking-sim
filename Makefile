@@ -1,11 +1,8 @@
 roms := \
-	pokegold.gbc \
-	pokesilver.gbc \
-	pokegold_debug.gbc \
-	pokesilver_debug.gbc
-patches := \
-	pokegold.patch \
-	pokesilver.patch
+	pokegold.gbc
+patches := # \
+#	pokegold.patch \
+#	pokesilver.patch
 
 rom_obj := \
 	audio.o \

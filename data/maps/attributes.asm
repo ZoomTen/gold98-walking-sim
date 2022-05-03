@@ -96,7 +96,23 @@ endc
 ENDM
 
 
-	map_attributes NewBarkTown, NEW_BARK_TOWN, $05, 0
+	map_attributes Shizuoka, SHIZUOKA, $05, WEST
+	;connection north
+	;connection south
+	connection west, Road129, ROAD_129, 0
+	;connection east
+
+	map_attributes Road129, ROAD_129, $05, WEST | EAST
+	;connection north
+	;connection south
+	connection west, Nagoya, NAGOYA, -9
+	connection east, Shizuoka, SHIZUOKA, 0
+
+	map_attributes Nagoya, NAGOYA, $05, EAST
+	;connection north
+	;connection south
+	;connection west
+	connection east, Road129, ROAD_129, 9
 
 	map_attributes IndigoPlateauPokecenter1F, INDIGO_PLATEAU_POKECENTER_1F, $00, 0
 	map_attributes WillsRoom, WILLS_ROOM, $00, 0
