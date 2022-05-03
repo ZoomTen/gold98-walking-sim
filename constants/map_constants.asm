@@ -51,6 +51,7 @@ ENDM
 	map_const NAGOYA, 20, 18
 	map_const ROAD_130, 10, 18
 	map_const ROAD_131, 20, 9
+	map_const NARA, 20, 18
 	endgroup
 
 	newgroup INDIGO                                               ; 3

@@ -23,6 +23,7 @@ INCLUDE "maps/road129.asm"
 INCLUDE "maps/nagoya.asm"
 INCLUDE "maps/road130.asm"
 INCLUDE "maps/road131.asm"
+INCLUDE "maps/nara.asm"
 
 SECTION "Map Scripts 5", ROMX
 SECTION "Map Scripts 6", ROMX

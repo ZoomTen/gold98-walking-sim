@@ -15,6 +15,7 @@ Road129_Blocks:  INCBIN "maps/road129.blk"
 Nagoya_Blocks:   INCBIN "maps/nagoya.blk"
 Road130_Blocks:  INCBIN "maps/road130.blk"
 Road131_Blocks:  INCBIN "maps/road131.blk"
+Nara_Blocks:     INCBIN "maps/nara.blk"
 
 SECTION "Map Blocks 2", ROMX
 
