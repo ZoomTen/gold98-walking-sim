@@ -28,10 +28,10 @@ MomPhoneLandmark:
 MomPhoneInTown:
 	readvar VAR_MAPGROUP
 	ifequal GROUP_NEW_BARK_TOWN, .newbark
-	ifequal GROUP_CHERRYGROVE_CITY, .cherrygrove
-	ifequal GROUP_VIOLET_CITY, .violet
-	ifequal GROUP_AZALEA_TOWN, .azalea
-	ifequal GROUP_GOLDENROD_CITY, .goldenrod
+	ifequal GROUP_NONE, .cherrygrove
+	ifequal GROUP_NONE, .violet
+	ifequal GROUP_NONE, .azalea
+	ifequal GROUP_NONE, .goldenrod
 	writetext MomPhoneGenericAreaText
 	promptbutton
 	sjump MomSavingMoney

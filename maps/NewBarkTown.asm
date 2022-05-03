@@ -295,10 +295,8 @@ NewBarkTown_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  6,  3, ELMS_LAB, 1
 	warp_event 13,  5, PLAYERS_HOUSE_1F, 1
-	warp_event  3, 11, PLAYERS_NEIGHBORS_HOUSE, 1
-	warp_event 11, 13, ELMS_HOUSE, 1
+	warp_event  6,  3, INDIGO_PLATEAU_POKECENTER_1F, 4
 
 	def_coord_events
 	coord_event  1,  8, SCENE_DEFAULT, NewBarkTown_TeacherStopsYouScene1
