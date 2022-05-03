@@ -108,11 +108,29 @@ ENDM
 	connection west, Nagoya, NAGOYA, -9
 	connection east, Shizuoka, SHIZUOKA, 0
 
-	map_attributes Nagoya, NAGOYA, $05, EAST
-	;connection north
+	map_attributes Nagoya, NAGOYA, $05, EAST | NORTH
+	connection north, Road130, ROAD_130, 5
 	;connection south
 	;connection west
 	connection east, Road129, ROAD_129, 9
+
+	map_attributes Road130, ROAD_130, $05, NORTH | SOUTH
+	connection north, Road131, ROAD_131, -10
+	connection south, Nagoya, NAGOYA, -5
+	;connection west
+	;connection east
+
+	map_attributes Road131, ROAD_131, $05, SOUTH
+	;connection north
+	connection south, Road130, ROAD_130, 10
+	;connection west
+	;connection east, Nara, NARA, 0
+
+	;map_attributes Nagoya, NAGOYA, $05, -
+	;connection north
+	;connection south
+	;connection west
+	;connection east, Road129, ROAD_129, 9
 
 	map_attributes IndigoPlateauPokecenter1F, INDIGO_PLATEAU_POKECENTER_1F, $00, 0
 	map_attributes WillsRoom, WILLS_ROOM, $00, 0

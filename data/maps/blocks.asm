@@ -13,6 +13,8 @@ Colosseum_Blocks:
 Shizuoka_Blocks: INCBIN "maps/sizuoka.blk"
 Road129_Blocks:  INCBIN "maps/road129.blk"
 Nagoya_Blocks:   INCBIN "maps/nagoya.blk"
+Road130_Blocks:  INCBIN "maps/road130.blk"
+Road131_Blocks:  INCBIN "maps/road131.blk"
 
 SECTION "Map Blocks 2", ROMX
 

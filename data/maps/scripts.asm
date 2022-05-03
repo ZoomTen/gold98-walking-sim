@@ -21,6 +21,8 @@ SECTION "Map Scripts 4", ROMX
 INCLUDE "maps/sizuoka.asm"
 INCLUDE "maps/road129.asm"
 INCLUDE "maps/nagoya.asm"
+INCLUDE "maps/road130.asm"
+INCLUDE "maps/road131.asm"
 
 SECTION "Map Scripts 5", ROMX
 SECTION "Map Scripts 6", ROMX
